@@ -13,3 +13,17 @@ chmod 777 videos
 docker compose up -d
 ```
 
+## MediaCMS notes
+
+Setup dns to point to your docker host IP
+
+git clone https://github.com/mediacms-io/mediacms && cd mediacms
+
+chmod -R 777 mediacms/media_files
+
+https://github.com/mediacms-io/mediacms/blob/main/docs/admins_docs.md#3-docker-installation
+
+Edit localsettings.py and docker-comopse-letsencrypt.yaml to suit
+docker compose -f docker-compose-letsencrypt.yaml up --detach
+
+
