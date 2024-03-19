@@ -12,7 +12,7 @@ mkdir videos
 chmod 777 videos
 docker compose up -d
 ```
-
+From Infinity, dial out to rtmp://<your-docker-dns>/recorder/<stream-key>
 ## MediaCMS notes
 
 Setup dns to point to your docker host IP
@@ -28,5 +28,7 @@ docker compose -f docker-compose-letsencrypt.yaml up --detach
 
 
 <img width="2048" alt="image" src="https://github.com/lorist/nginx-rtmp/assets/5859812/000a8632-15d7-426d-ad42-2963d6f95761">
+
+<img width="2048" alt="image" src="https://github.com/lorist/nginx-rtmp/assets/5859812/f9e629cb-42ac-48b7-8921-5d2c3a943236">
 
 
