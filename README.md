@@ -12,7 +12,7 @@ mkdir videos
 chmod 777 videos
 docker compose up -d
 ```
-From Infinity, dial out to rtmp://<your-docker-dns>/recorder/<stream-key>
+From Infinity, dial out to rtmp://`dns-of-your-docker-host`/recorder/`stream-key`
 ## MediaCMS notes
 
 Setup dns to point to your docker host IP
