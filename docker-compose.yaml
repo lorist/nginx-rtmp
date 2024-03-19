@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  nginx-rtmp:
+    name: nginx-rtmp
+    build: .
+    ports:
+      - '1935:1935'
+    image: tiangolo/nginx-rtmp
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./videos:/home/bucket
