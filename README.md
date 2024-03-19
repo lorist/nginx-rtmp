@@ -27,3 +27,6 @@ Edit localsettings.py and docker-comopse-letsencrypt.yaml to suit
 docker compose -f docker-compose-letsencrypt.yaml up --detach
 
 
+<img width="2048" alt="image" src="https://github.com/lorist/nginx-rtmp/assets/5859812/000a8632-15d7-426d-ad42-2963d6f95761">
+
+
